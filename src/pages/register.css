@@ -1,0 +1,41 @@
+.already{
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    background-color: #FA7C1F;
+    text-align: center;
+    height: 30px;
+    color: white;
+    font-size: 22px;
+}
+.home_heart{
+    fill: red;
+}
+.securityFeature>ol>li{
+   width:500px;
+   font-size:22px;
+   font-weight: 500;
+   line-height: 1.6;
+
+}
+.securityFeature>ol>li>span{
+    color: #FA7C1F;
+    font-weight: 700;
+}
+@media (max-width:480px) {
+    .securityFeature>ol>li{
+        width: 300px;
+    }
+   
+    /* footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+     
+    } */
+    
+
+}

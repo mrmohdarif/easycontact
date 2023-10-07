@@ -1,0 +1,129 @@
+body{
+    font-family: serif;
+}
+.addtocontact{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.right{
+border: 3px solid #FA7C1F;
+padding: 10px;
+overflow-y: scroll;
+height: 75vh;
+/* position: fixed; */
+width: 300px;
+
+}
+.right_data{
+   background-color: bisque;
+   padding: 0px; 
+   margin-bottom: 10px;
+   padding: 10px;
+}
+.profile_type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.personal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.personal1{
+    background-color: rgb(135, 204, 135);
+     padding: 5px 10px;
+     border-radius: 5px;
+}
+.heart{
+  fill: red;
+  font-size: 25px;
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: fit-content;
+}
+.business{
+    fill: red;
+    font-size: 25px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.contact_icon{
+    width: 30px;
+    height: 30px;
+    fill: red;
+}
+.btn_edit{
+    padding: 0px 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #FA7C1F;
+}
+
+.btn_delete{
+    padding: 0px 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #FA7C1F
+}
+p{
+    margin: 0px;
+    font-size: 18px;
+}
+.input{
+    width: 300px;
+    margin-bottom: 20px;
+    
+}
+/* .input1{
+    text-transform: uppercase;
+} */
+h3{
+ font-size: 22px;
+}
+.contact_heading{
+    text-align: center;
+    text-decoration: underline;
+    color: #FA7C1F;
+    position:static;
+    top: 10px;
+
+}
+
+.submit_btn{
+    width: 100%;
+    background-color: #FA7C1F;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px
+}
+.subreset{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width:480px) {
+    .addtocontact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+     height: auto;
+    }
+}

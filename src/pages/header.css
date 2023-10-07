@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 250px;
+    cursor: pointer;
+}
+.btn
+{
+   background-color: #FA7C1F;
+   color: white;
+   padding: 10px 40px 10px 40px;
+   font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: solid;
+    cursor: pointer;
+    border: none;
+    margin: 20px
+}
+.lgin_register{
+    margin-left: 120px;
+}
+@media (max-width: 480px) {
+    .btn{
+        padding:8px 5px 8px 5px;
+        margin:5px
+    } 
+    .home{
+    flex-direction: column;
+    }
+    .lgin_register{
+        margin-left:0px
+    }
+    .logo img{
+        width: 200px;
+    }
+    .header{
+        margin-bottom: 30px;
+    }
+
+}
